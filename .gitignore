@@ -1,0 +1,9 @@
+# Arquivos gerados pelo Terraform (não devem ir ao repositório)
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+
+# Variáveis sensíveis
+*.tfvars
+!example.tfvars
